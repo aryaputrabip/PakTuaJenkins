@@ -1,8 +1,16 @@
 public class Number {
 	public static void main(String args[]){
-		System.out.println("Hello World");
-		for(int i=0;i<50;i++){
-			System.out.println("Try Number " +i +" times");
+		int a = 0;
+		
+		System.out.println("Mencari Bilangan Prima");
+		for(int i=0;i<=100;i++){
+			if(i%0 == 0){
+				a = a+1;
+			}
+			if(a == 2){
+				System.out.println(i = " adalah bilangan prima");
+			}
+			
 		}
 	}
 }
