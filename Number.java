@@ -1,20 +1,25 @@
 public class Number {
 	public static void main(String args[]){
 		bool isPrima = false;
+		int i=0, j=2, baris = 100;
 		
 		System.out.println("Mencari Bilangan Prima V2");
-		for(int i=0;i<100;i++){
-			for(int j=2;j<=i/2; j++){
-				if(i % j == 0){
-					isPrima = false;
-					break;
-				}else{
+		while (i < j){
+			isPrima = true;
+			
+			for(int a=2; a <= j / 2; a++){
+				if(j % a == 0){
 					isPrima = true;
+					brea;
 				}
 			}
 			if(isPrima){
-				System.out.println(i + " adalah bilangan prima.");
+				i++;
+				if(i % baris == 0){
+					System.out.println(i + " adalah bilangan prima.");
+				}
 			}
+			j++;
 		}
 	}
 }
