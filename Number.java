@@ -8,7 +8,7 @@ public class Number {
 				a = a+1;
 			}
 			if(a == 2){
-				System.out.println(i = " adalah bilangan prima");
+				System.out.println(i + " adalah bilangan prima");
 			}
 		}
 	}
