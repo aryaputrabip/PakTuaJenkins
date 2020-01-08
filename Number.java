@@ -12,9 +12,8 @@ public class Number {
 					isPrima = true;
 				}
 			}
-				if(isPrima){
-					System.out.println(i + " adalah bilangan prima.");
-				}
+			if(isPrima){
+				System.out.println(i + " adalah bilangan prima.");
 			}
 		}
 	}
