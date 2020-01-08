@@ -1,8 +1,8 @@
 public class Number {
 	public static void main(String args[]){
 		System.out.println("Hello World");
-		for(int i=0;i<10;i++){
-			System.out.println("Well Hello for the " +i +" times");
+		for(int i=0;i<100;i++){
+			System.out.println("Try Number " +i +" times");
 		}
 	}
 }
